@@ -1,0 +1,506 @@
+,symbol,profit,sector
+0,MMM,-168420.0,Industrials
+1,AOS,0.0,Industrials
+2,ABT,-81980.0,Health Care
+3,ABBV,52350.0,Health Care
+4,ABMD,0.0,Health Care
+5,ACN,0.0,Information Technology
+6,ATVI,-45720.0,Communication Services
+7,ADBE,0.0,Information Technology
+8,AAP,-48369.97,Consumer Discretionary
+9,AMD,-5670.0,Information Technology
+10,AES,5160.0,Utilities
+11,AFL,3890.0,Financials
+12,A,-990.0,Health Care
+13,APD,-150239.99,Materials
+14,AKAM,0.0,Information Technology
+15,ALK,-204769.99,Industrials
+16,ALB,1870.01,Materials
+17,ARE,-41020.0,Real Estate
+18,ALXN,-213629.97,Health Care
+19,ALGN,0.0,Health Care
+20,ALLE,4480.0,Industrials
+21,LNT,-39180.0,Utilities
+22,ALL,21470.0,Financials
+23,GOOGL,0.0,Communication Services
+24,GOOG,0.0,Communication Services
+25,MO,0.0,Consumer Staples
+26,AMZN,0.0,Consumer Discretionary
+27,AMCR,-23940.0,Materials
+28,AEE,9930.0,Utilities
+29,AAL,-1750.0,Industrials
+30,AEP,-72500.0,Utilities
+31,AXP,-28230.0,Financials
+32,AIG,-12360.0,Financials
+33,AMT,83770.0,Real Estate
+34,AWK,0.0,Utilities
+35,AMP,-122240.0,Financials
+36,ABC,-58760.0,Health Care
+37,AME,-17540.0,Industrials
+38,AMGN,-153909.96,Health Care
+39,APH,-73520.0,Information Technology
+40,ADI,-255020.0,Information Technology
+41,ANSS,0.0,Information Technology
+42,ANTM,0.0,Health Care
+43,AON,0.0,Financials
+44,APA,-44660.0,Energy
+45,AIV,-13490.0,Real Estate
+46,AAPL,-697169.98,Information Technology
+47,AMAT,109400.0,Information Technology
+48,APTV,0.0,Consumer Discretionary
+49,ADM,-19830.01,Consumer Staples
+50,ANET,0.0,Information Technology
+51,AJG,265210.0,Financials
+52,AIZ,-122860.02,Financials
+53,T,-113060.01,Communication Services
+54,ATO,-13680.0,Utilities
+55,ADSK,-47620.01,Information Technology
+56,ADP,-85970.0,Information Technology
+57,AZO,0.0,Consumer Discretionary
+58,AVB,-187620.01,Real Estate
+59,AVY,-102100.0,Materials
+60,BKR,0.0,Energy
+61,BLL,0.0,Materials
+62,BAC,37960.0,Financials
+63,BAX,5559.99,Health Care
+64,BDX,0.0,Health Care
+65,BRK.B,0.0,Financials
+66,BBY,-10989.99,Consumer Discretionary
+67,BIO,81940.03,Health Care
+68,BIIB,0.0,Health Care
+69,BLK,-83209.99,Financials
+70,BA,-169669.98,Industrials
+71,BKNG,142670.04,Consumer Discretionary
+72,BWA,-23920.0,Consumer Discretionary
+73,BXP,-51850.01,Real Estate
+74,BSX,-21400.0,Health Care
+75,BMY,-56999.99,Health Care
+76,AVGO,0.0,Information Technology
+77,BR,35109.99,Information Technology
+78,BF.B,0.0,Consumer Staples
+79,CHRW,-55160.02,Industrials
+80,COG,-18110.0,Energy
+81,CDNS,0.0,Information Technology
+82,CPB,9390.0,Consumer Staples
+83,COF,-26410.0,Financials
+84,CAH,-43540.0,Health Care
+85,KMX,-360500.03,Consumer Discretionary
+86,CCL,-17639.99,Consumer Discretionary
+87,CARR,0.0,Industrials
+88,CAT,4519.99,Industrials
+89,CBOE,151660.01,Financials
+90,CBRE,0.0,Real Estate
+91,CDW,44759.99,Information Technology
+92,CE,-26260.0,Materials
+93,CNC,32380.0,Health Care
+94,CNP,-4740.0,Utilities
+95,CTL,5150.0,Communication Services
+96,CERN,-56180.0,Health Care
+97,CF,-33080.0,Materials
+98,SCHW,7710.0,Financials
+99,CHTR,0.0,Communication Services
+100,CVX,-27079.99,Energy
+101,CMG,38670.07,Consumer Discretionary
+102,CB,-45180.01,Financials
+103,CHD,-75180.0,Consumer Staples
+104,CI,-74880.02,Health Care
+105,CINF,-98579.99,Financials
+106,CTAS,0.0,Industrials
+107,CSCO,-2350.0,Information Technology
+108,C,-35860.0,Financials
+109,CFG,-23940.0,Financials
+110,CTXS,0.0,Information Technology
+111,CME,-68770.0,Financials
+112,CMS,-42310.0,Utilities
+113,KO,-43990.0,Consumer Staples
+114,CTSH,-25650.0,Information Technology
+115,CL,-214700.0,Consumer Staples
+116,CMCSA,-3550.0,Communication Services
+117,CMA,-43500.0,Financials
+118,CAG,-33229.57,Consumer Staples
+119,CXO,-74400.0,Energy
+120,COP,0.0,Energy
+121,ED,-74890.01,Utilities
+122,STZ,0.0,Consumer Staples
+123,CPRT,83790.0,Industrials
+124,GLW,32190.0,Information Technology
+125,CTVA,-8790.0,Materials
+126,COST,-290090.0,Consumer Staples
+127,COTY,-49230.0,Consumer Staples
+128,CCI,-104560.0,Real Estate
+129,CSX,20290.0,Industrials
+130,CMI,11830.0,Industrials
+131,CVS,-107259.99,Health Care
+132,DHI,0.0,Consumer Discretionary
+133,DHR,-469321.75,Health Care
+134,DRI,0.0,Consumer Discretionary
+135,DVA,0.0,Health Care
+136,DE,0.0,Industrials
+137,DAL,0.0,Industrials
+138,XRAY,-244580.0,Health Care
+139,DVN,-69390.0,Energy
+140,DXCM,-82400.01,Health Care
+141,FANG,-127350.01,Energy
+142,DLR,0.0,Real Estate
+143,DFS,81300.01,Financials
+144,DISCA,-45820.0,Communication Services
+145,DISCK,-24770.0,Communication Services
+146,DISH,-53460.0,Communication Services
+147,DG,0.0,Consumer Discretionary
+148,DLTR,-65900.0,Consumer Discretionary
+149,D,1680.0,Utilities
+150,DPZ,0.0,Consumer Discretionary
+151,DOV,-9870.76,Industrials
+152,DOW,-12040.0,Materials
+153,DTE,104200.0,Utilities
+154,DUK,-11410.01,Utilities
+155,DRE,3220.0,Real Estate
+156,DD,-28526.42,Materials
+157,DXC,-17026.44,Information Technology
+158,ETFC,-56940.0,Financials
+159,EMN,-5680.01,Materials
+160,ETN,-61580.0,Industrials
+161,EBAY,-19270.0,Consumer Discretionary
+162,ECL,50.0,Materials
+163,EIX,-66659.99,Utilities
+164,EW,10291.67,Health Care
+165,EA,0.0,Communication Services
+166,EMR,-51550.0,Industrials
+167,ETR,100740.0,Utilities
+168,EOG,-3990.0,Energy
+169,EFX,0.0,Industrials
+170,EQIX,0.0,Real Estate
+171,EQR,-458209.99,Real Estate
+172,ESS,0.0,Real Estate
+173,EL,-140280.0,Consumer Staples
+174,RE,0.0,Financials
+175,EVRG,5480.0,Utilities
+176,ES,34420.0,Utilities
+177,EXC,-14330.01,Utilities
+178,EXPE,-79280.01,Consumer Discretionary
+179,EXPD,-2570.0,Industrials
+180,EXR,0.0,Real Estate
+181,XOM,-81999.98,Energy
+182,FFIV,58820.01,Information Technology
+183,FB,-13980.0,Communication Services
+184,FAST,-2720.0,Industrials
+185,FRT,0.0,Real Estate
+186,FDX,-45010.01,Industrials
+187,FIS,0.0,Information Technology
+188,FITB,-7610.0,Financials
+189,FRC,0.0,Financials
+190,FE,0.0,Utilities
+191,FISV,0.0,Information Technology
+192,FLT,-32600.01,Information Technology
+193,FLIR,-5460.0,Information Technology
+194,FLS,-18560.0,Industrials
+195,FMC,0.0,Materials
+196,F,-7230.0,Consumer Discretionary
+197,FTNT,0.0,Information Technology
+198,FTV,0.0,Industrials
+199,FBHS,-28970.01,Industrials
+200,FOXA,-12760.0,Communication Services
+201,FOX,0.0,Communication Services
+202,BEN,32320.0,Financials
+203,FCX,-16800.0,Materials
+204,GPS,-6360.0,Consumer Discretionary
+205,GRMN,-67060.0,Consumer Discretionary
+206,IT,-48050.01,Information Technology
+207,GD,1780.01,Industrials
+208,GE,0.0,Industrials
+209,GIS,-12570.0,Consumer Staples
+210,GM,-58570.0,Consumer Discretionary
+211,GPC,-53219.99,Consumer Discretionary
+212,GILD,-200360.0,Health Care
+213,GPN,0.0,Information Technology
+214,GL,-61559.99,Financials
+215,GS,-63589.98,Financials
+216,GWW,-29010.01,Industrials
+217,HRB,-21190.0,Consumer Discretionary
+218,HAL,-48840.0,Energy
+219,HBI,-9030.0,Consumer Discretionary
+220,HIG,-323520.01,Financials
+221,HAS,-95510.0,Consumer Discretionary
+222,HCA,0.0,Health Care
+223,PEAK,-24300.0,Real Estate
+224,HSIC,25347.84,Health Care
+225,HES,-15660.0,Energy
+226,HPE,-1826.21,Information Technology
+227,HLT,-64830.0,Consumer Discretionary
+228,HFC,26990.0,Energy
+229,HOLX,-31120.0,Health Care
+230,HD,-37780.0,Consumer Discretionary
+231,HON,-9447.4,Industrials
+232,HRL,0.0,Consumer Staples
+233,HST,-3270.0,Real Estate
+234,HWM,0.0,Industrials
+235,HPQ,4420.0,Information Technology
+236,HUM,0.0,Health Care
+237,HBAN,-4420.0,Financials
+238,HII,0.0,Industrials
+239,IEX,-3999.99,Industrials
+240,IDXX,-202460.01,Health Care
+241,INFO,-39860.0,Industrials
+242,ITW,0.0,Industrials
+243,ILMN,0.0,Health Care
+244,INCY,-23220.02,Health Care
+245,IR,-4050.0,Industrials
+246,INTC,56840.01,Information Technology
+247,ICE,-68640.0,Financials
+248,IBM,-75510.01,Information Technology
+249,IP,-18280.0,Materials
+250,IPG,-111930.0,Communication Services
+251,IFF,-37439.99,Materials
+252,INTU,32000.02,Information Technology
+253,ISRG,70246.64,Health Care
+254,IVZ,5880.01,Financials
+255,IPGP,72810.0,Information Technology
+256,IQV,0.0,Health Care
+257,IRM,-24660.0,Real Estate
+258,JBHT,-7150.0,Industrials
+259,JKHY,0.0,Information Technology
+260,J,-24430.0,Industrials
+261,SJM,0.0,Consumer Staples
+262,JNJ,11160.02,Health Care
+263,JCI,-1372.2,Industrials
+264,JPM,49860.02,Financials
+265,JNPR,-14620.0,Information Technology
+266,KSU,-129650.0,Industrials
+267,K,0.0,Consumer Staples
+268,KEY,12120.0,Financials
+269,KEYS,109759.99,Information Technology
+270,KMB,120020.01,Consumer Staples
+271,KIM,-26090.0,Real Estate
+272,KMI,-4580.0,Energy
+273,KLAC,650.0,Information Technology
+274,KSS,-26620.0,Consumer Discretionary
+275,KHC,-27120.0,Consumer Staples
+276,KR,-28950.0,Consumer Staples
+277,LB,-14930.0,Consumer Discretionary
+278,LHX,-121030.01,Industrials
+279,LH,-137050.0,Health Care
+280,LRCX,-438829.99,Information Technology
+281,LW,0.0,Consumer Staples
+282,LVS,-17930.0,Consumer Discretionary
+283,LEG,0.0,Consumer Discretionary
+284,LDOS,68789.99,Information Technology
+285,LEN,-33851.68,Consumer Discretionary
+286,LLY,0.0,Health Care
+287,LNC,-327379.99,Financials
+288,LIN,-163259.99,Materials
+289,LYV,-108710.0,Communication Services
+290,LKQ,-3750.0,Consumer Discretionary
+291,LMT,0.0,Industrials
+292,L,-19800.0,Financials
+293,LOW,-31350.01,Consumer Discretionary
+294,LYB,0.0,Materials
+295,MTB,-101890.0,Financials
+296,MRO,-25530.0,Energy
+297,MPC,0.0,Energy
+298,MKTX,0.0,Financials
+299,MAR,0.0,Consumer Discretionary
+300,MMC,-18160.02,Financials
+301,MLM,0.0,Materials
+302,MAS,-9590.0,Industrials
+303,MA,0.0,Information Technology
+304,MXIM,0.0,Information Technology
+305,MKC,0.0,Consumer Staples
+306,MCD,-45630.0,Consumer Discretionary
+307,MCK,-98700.0,Health Care
+308,MDT,6590.01,Health Care
+309,MRK,-69780.0,Health Care
+310,MET,-44221.66,Financials
+311,MTD,0.0,Health Care
+312,MGM,-16470.0,Consumer Discretionary
+313,MCHP,37760.0,Information Technology
+314,MU,40260.01,Information Technology
+315,MSFT,-10280.0,Information Technology
+316,MAA,-84670.0,Real Estate
+317,MHK,0.0,Consumer Discretionary
+318,TAP,-37910.0,Consumer Staples
+319,MDLZ,11110.0,Consumer Staples
+320,MNST,-54820.0,Consumer Staples
+321,MCO,107840.0,Financials
+322,MS,-30890.0,Financials
+323,MSI,-97500.02,Information Technology
+324,MSCI,103110.0,Financials
+325,MYL,-31360.0,Health Care
+326,NDAQ,0.0,Financials
+327,NOV,1520.0,Energy
+328,NTAP,-59150.0,Information Technology
+329,NFLX,0.0,Communication Services
+330,NWL,-35120.0,Consumer Discretionary
+331,NEM,-27790.0,Materials
+332,NWSA,-117640.0,Communication Services
+333,NWS,-5450.0,Communication Services
+334,NEE,-8460.0,Utilities
+335,NLSN,-22680.0,Industrials
+336,NKE,0.0,Consumer Discretionary
+337,NI,8800.45,Utilities
+338,NBL,-27260.0,Energy
+339,NSC,-9380.0,Industrials
+340,NTRS,0.0,Financials
+341,NOC,0.0,Industrials
+342,NLOK,-32160.0,Information Technology
+343,NCLH,-28590.0,Consumer Discretionary
+344,NRG,8200.0,Utilities
+345,NUE,-990.0,Materials
+346,NVDA,107600.0,Information Technology
+347,NVR,0.0,Consumer Discretionary
+348,ORLY,-388179.96,Consumer Discretionary
+349,OXY,-116680.49,Energy
+350,ODFL,32666.68,Industrials
+351,OMC,-14900.0,Communication Services
+352,OKE,-33460.0,Energy
+353,ORCL,-15849.99,Information Technology
+354,OTIS,0.0,Industrials
+355,PCAR,-58260.02,Industrials
+356,PKG,359.99,Materials
+357,PH,-13789.99,Industrials
+358,PAYX,-86410.0,Information Technology
+359,PAYC,0.0,Information Technology
+360,PYPL,43430.0,Information Technology
+361,PNR,16650.26,Industrials
+362,PBCT,-14420.0,Financials
+363,PEP,-90270.0,Consumer Staples
+364,PKI,-57000.0,Health Care
+365,PRGO,-23840.01,Health Care
+366,PFE,-186520.01,Health Care
+367,PM,0.0,Consumer Staples
+368,PSX,-44950.0,Energy
+369,PNW,-56050.0,Utilities
+370,PXD,0.0,Energy
+371,PNC,176340.0,Financials
+372,PPG,-100270.0,Materials
+373,PPL,-28830.01,Utilities
+374,PFG,-166679.99,Financials
+375,PG,32920.0,Consumer Staples
+376,PGR,14170.0,Financials
+377,PLD,-338320.01,Real Estate
+378,PRU,-40640.01,Financials
+379,PEG,-5859.99,Utilities
+380,PSA,-3160.0,Real Estate
+381,PHM,-30040.0,Consumer Discretionary
+382,PVH,11080.0,Consumer Discretionary
+383,QRVO,-59530.03,Information Technology
+384,QCOM,-29770.0,Information Technology
+385,PWR,-27270.0,Industrials
+386,DGX,0.0,Health Care
+387,RL,-40470.0,Consumer Discretionary
+388,RJF,-10120.0,Financials
+389,RTX,0.0,Industrials
+390,O,15289.99,Real Estate
+391,REG,-15710.0,Real Estate
+392,REGN,0.0,Health Care
+393,RF,4850.0,Financials
+394,RSG,0.0,Industrials
+395,RMD,58990.01,Health Care
+396,RHI,2630.0,Industrials
+397,ROK,-18470.0,Industrials
+398,ROL,-8340.0,Industrials
+399,ROP,63090.0,Industrials
+400,ROST,-57700.0,Consumer Discretionary
+401,RCL,-36660.0,Consumer Discretionary
+402,SPGI,123500.0,Financials
+403,CRM,0.0,Information Technology
+404,SBAC,0.0,Real Estate
+405,SLB,-32310.0,Energy
+406,STX,33050.0,Information Technology
+407,SEE,-6110.0,Materials
+408,SRE,70780.01,Utilities
+409,NOW,305179.95,Information Technology
+410,SHW,0.0,Materials
+411,SPG,0.0,Real Estate
+412,SWKS,0.0,Information Technology
+413,SLG,0.0,Real Estate
+414,SNA,0.0,Industrials
+415,SO,-2610.0,Utilities
+416,LUV,-200.0,Industrials
+417,SWK,0.0,Industrials
+418,SBUX,-9610.0,Consumer Discretionary
+419,STT,11020.0,Financials
+420,STE,-66780.0,Health Care
+421,SYK,80.0,Health Care
+422,SIVB,0.0,Financials
+423,SYF,0.0,Financials
+424,SNPS,29030.0,Information Technology
+425,SYY,-69680.0,Consumer Staples
+426,TMUS,0.0,Communication Services
+427,TROW,-11980.0,Financials
+428,TTWO,-108230.0,Communication Services
+429,TPR,-17050.0,Consumer Discretionary
+430,TGT,0.0,Consumer Discretionary
+431,TEL,0.0,Information Technology
+432,FTI,21650.0,Energy
+433,TDY,172280.01,Industrials
+434,TFX,0.0,Health Care
+435,TXN,0.0,Information Technology
+436,TXT,-46280.0,Industrials
+437,BK,-132220.0,Financials
+438,CLX,-139539.99,Consumer Staples
+439,COO,0.0,Health Care
+440,HSY,-346610.01,Consumer Staples
+441,MOS,-84280.0,Materials
+442,TRV,0.0,Financials
+443,DIS,-104240.0,Communication Services
+444,TMO,56810.01,Health Care
+445,TIF,-3630.01,Consumer Discretionary
+446,TJX,-46824.99,Consumer Discretionary
+447,TSCO,-92080.0,Consumer Discretionary
+448,TT,0.0,Industrials
+449,TDG,0.0,Industrials
+450,TFC,-43660.01,Financials
+451,TWTR,0.0,Communication Services
+452,TYL,0.0,Technology
+453,TSN,-58390.0,Consumer Staples
+454,USB,-59380.0,Financials
+455,UDR,-240680.01,Real Estate
+456,ULTA,-114600.01,Consumer Discretionary
+457,UAA,-3740.0,Consumer Discretionary
+458,UA,-6480.0,Consumer Discretionary
+459,UNP,0.0,Industrials
+460,UAL,-67109.99,Industrials
+461,UNH,-103490.01,Health Care
+462,UPS,-6169.99,Industrials
+463,URI,-22079.99,Industrials
+464,UHS,-43720.0,Health Care
+465,UNM,700.0,Financials
+466,VFC,5372.82,Consumer Discretionary
+467,VLO,17460.01,Energy
+468,VAR,18450.0,Health Care
+469,VTR,-6870.0,Real Estate
+470,VRSN,0.0,Information Technology
+471,VRSK,32340.0,Industrials
+472,VZ,-50250.0,Communication Services
+473,VRTX,-60790.01,Health Care
+474,VIAC,0.0,Communication Services
+475,V,48170.01,Information Technology
+476,VNO,-11180.0,Real Estate
+477,VMC,0.0,Materials
+478,WRB,-44803.32,Financials
+479,WAB,-52119.99,Industrials
+480,WBA,-24500.0,Consumer Staples
+481,WMT,36789.99,Consumer Staples
+482,WM,-68089.99,Industrials
+483,WAT,-170700.03,Health Care
+484,WEC,40090.0,Utilities
+485,WFC,-60690.0,Financials
+486,WELL,-83140.0,Real Estate
+487,WST,0.0,Health Care
+488,WDC,-81520.03,Information Technology
+489,WU,-78590.0,Information Technology
+490,WRK,18549.53,Materials
+491,WY,-8350.0,Real Estate
+492,WHR,0.0,Consumer Discretionary
+493,WMB,0.0,Energy
+494,WLTW,10460.01,Financials
+495,WYNN,25079.99,Consumer Discretionary
+496,XEL,76230.0,Utilities
+497,XRX,7642.05,Information Technology
+498,XLNX,1110.0,Information Technology
+499,XYL,-43549.99,Industrials
+500,YUM,-82920.01,Consumer Discretionary
+501,ZBRA,0.0,Information Technology
+502,ZBH,-63900.01,Health Care
+503,ZION,19120.0,Financials
+504,ZTS,-77380.0,Health Care
