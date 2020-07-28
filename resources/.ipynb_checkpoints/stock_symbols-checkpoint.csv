@@ -64,7 +64,11 @@ BLL,Ball Corp,Materials
 BAC,Bank of America Corp,Financials
 BAX,Baxter International Inc.,Health Care
 BDX,Becton Dickinson,Health Care
+<<<<<<< HEAD
 BRKB,Berkshire Hathaway,Financials
+=======
+BRK.B,Berkshire Hathaway,Financials
+>>>>>>> e8231a1a5f9e5324528b08c6c0d1ef80df754d48
 BBY,Best Buy Co. Inc.,Consumer Discretionary
 BIO,Bio-Rad Laboratories,Health Care
 BIIB,Biogen Inc.,Health Care
@@ -77,7 +81,11 @@ BSX,Boston Scientific,Health Care
 BMY,Bristol-Myers Squibb,Health Care
 AVGO,Broadcom Inc.,Information Technology
 BR,Broadridge Financial Solutions,Information Technology
+<<<<<<< HEAD
 BFA,Brown-Forman Corp.,Consumer Staples
+=======
+BF.B,Brown-Forman Corp.,Consumer Staples
+>>>>>>> e8231a1a5f9e5324528b08c6c0d1ef80df754d48
 CHRW,C. H. Robinson Worldwide,Industrials
 COG,Cabot Oil & Gas,Energy
 CDNS,Cadence Design Systems,Information Technology
