@@ -85,8 +85,6 @@ yfinance.py API showed great potential in its offering historical market data fr
 
 Using a Python we created trading algorithm focusing on the simple moving average crossover, a portfolio containing ten stocks generating the greatest profits from the S&P 500 index is selected. 
 
-**Explain How the SMA crossover is calculated through the AMZN stock example**
-
 We looked at the moving average (ma) for a 50 day and 100 period. The ma calculations help to provide a 'smoother' price trend of stocks by removing the random short-term price fluctuations. As well as being able to identify the trend direction of stocks for two periods.The ma calculations also use historical data.
 
 Below is the example of using the ma calculations for the Amazon stock (ticket: AMZN) with the results graphed. 
