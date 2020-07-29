@@ -36,15 +36,6 @@ The simple moving average trading algorithm is evaluated against the historical 
 4. Sortino Ratio
 
 ---
-## Portfolio Summary
-
-### Portfolio Development
-
-Using a Python created trading algorithm focusing on the simple moving average crossover, a portfolio containing ten stocks generating the greatest profits from the S&P 500 index is selected. 
-
-**Explain How the SMA crossover is calculated through the AMZN stock example**
-
-![sma_amzn](images/sma.png)
 
 ## Data Analysis 
 
@@ -88,6 +79,20 @@ Backtesting API is used to analyze a specific stock to produce information and v
 
 yfinance.py API showed great potential in its offering historical market data from Yahoo! Finance. Unfortunately, the data retrieved included 'NA's' and blank space entries on stock information resulting in added work with data clean-up and had the potential of skweing of final results following. In addition, there are a number of documents noting that the yfinance API is no longer maintained and is essentially decommissioned. 
 
+## Portfolio Summary
+
+### Portfolio Development
+
+Using a Python we created trading algorithm focusing on the simple moving average crossover, a portfolio containing ten stocks generating the greatest profits from the S&P 500 index is selected. 
+
+**Explain How the SMA crossover is calculated through the AMZN stock example**
+
+We looked at the moving average (ma) for a 50 day and 100 period. The ma calculations help to provide a 'smoother' price trend of stocks by removing the random short-term price fluctuations. As well as being able to identify the trend direction of stocks for two periods.The ma calculations also use historical data.
+
+Below is the example of using the ma calculations for the Amazon stock (ticket: AMZN) with the results graphed. 
+
+![sma_amzn](images/sma.png)
+
 #### Profitable Portfolio Stocks:
 
 ![portfolio](images/profitable_portfolio.png)
@@ -98,7 +103,6 @@ The results of the average daily returns and cumulative returns of the profitabl
 
 ![returns](images/returns.png)
 
-Cumulative Returns - indicates the aggregate effect of price change on the value of investment for the portfolio.
 
 ![cummulative_returns](images/cummualtive_returns.png)
 
@@ -138,11 +142,11 @@ Based on calculations to determine risk -- the annualized sharpe and sortino rat
 
 It is important to look at the risk and returns over multiple years to receive a true reflection of the portfolio's risk and return profile. 
 
-In order to provide an accurate risk of the portfolio, risk calculations need to match the investment period. Our calculations only show annualized risk and has the potential to change.
+In order to provide an accurate risk of the portfolio, risk calculations need to match the investment period. Our calculations only show annualized risk and has the potential to change during the investment period.
 
 ## Evaluation 
 
-Overall, our we have used various tools and calculations to support our group's findings in building a profitable stock portfolio. 
+We used various tools and calculations to support our group's findings in building a profitable stock portfolio that show a strong indication the portfolio will meet desired outcome with strong probability outcomes. 
 
 Without adding external factors such as price changes to the market, the probability calculations and return on investment are highly in favour of the built portfolio. 
 
@@ -150,7 +154,7 @@ By including historical data and forecasting measures, the portfolio's returns s
 
 The backtesting API is a powerful tool that is able to retrieve a number of valuable information to assist us in viewing the stock information within the portfolio. This can be beneficial in reviewing each stock as a piece of the portfolio to compliment our calculations in determining the top ten most profitable stocks. We were not able to use the backtesting API for all the stocks as we'd need to run one stock per calculation. 
 
-Monte Carlo Limitations -- the simulations show that the portfolio has the ability of achieving the desired result. Note: there is no guaruntee the most expected outcome of the simulation will occur as it ignores movements of the market. The simulation should be viewed as a reference of potential outcomes but ultimately, management of portfolio and adjustments to the portfolio should be made with added information of the market.
+Monte Carlo - the simulations show that the portfolio has the ability of achieving the desired result. Note: there is no guaruntee the most expected outcome of the simulation will occur as it ignores movements of the market. The simulation should be viewed as a reference of potential outcomes but ultimately, management of portfolio and adjustments to the portfolio should be made with added information of the market.
 
 ## Other Considerations not explored
 
