@@ -1,6 +1,6 @@
 # Building a Medium to Long-Term Profitable Portfolio
 
-![title_image](images/title_img.jpg)
+![title_image](source_code/images/title_image.jpg)
 
 *A Python portfolio analysis by Alexandra Dumitras-Geli, Carlos Ituarte, Ian Davies, and Musonda Yamfwa.*
 
@@ -8,11 +8,11 @@
 
 ## Profitable Portfolio: Creating a Medium to Long Term Investment Strategy
 
-This portfolio development project encompasses an assortment of Python skills obtained througout the Fintech Bootcamp course. Utilizing Python data visulizations tools such as; PyViz, Plotly Express, and HvPlot, partnered with Pandas data cleaning procedures, a financial analysis is conducted to identify opportunities of a well-defined investment algorithm.
+This portfolio development project encompasses an assortment of Python skills obtained througout the Fintech Bootcamp course. Utilizing Python data visulizations tools such as; PyViz, Plotly Express, and HvPlot, partnered with Pandas data cleaning procedures, a financial analysis is conducted to identify opportunities of a well-defined investment algorithm.  Power presentation can be found at [location](https://docs.google.com/presentation/d/1I8NO5Jp4SKLjNEdgbSsNcSCxoTM7Caq1vf-FVTJNYY8/edit?usp=sharing)
 
 ### Project Objective
 
-![portfolio_image](images/portfolio_image.jpg)
+![portfolio_image](source_code/images/portfolio_image.jpg)
 
 Using the Pandas data reader function, external stock source data, and a well defined algorithm, this project seeks to create a portfolio containing ten stocks generating the highest returns based on an algorithmic and S&P 500 historical trading data evaluation. Furthermore, a Monte Carlo simulation, optimal weight distribution analysis, and a risk analysis were completed to provide an insightful financial analysis to assist potential investors.
 
@@ -42,25 +42,26 @@ The simple moving average trading algorithm is evaluated against the historical 
 We identified potential APIs and libraries that have the ability of retrieving historical stock data that would be used to build our portfolio. 
 
 Our methodology for the data analysis included the following brainstorming questions: (1) ease of retrieving information, (2) consinse information, (3) least amount of missing records and (4) provided us with valuable stock datat to help us filter what we exactly needed for our analysis vs needing to calculate the information. We looked at either the library or API route.
-    * retrieval of 5 year's worth of data for the 500 stocks in the S&P 500
-    * removing NULL values 
-    * sorting data
+
+* retrieval of 5 year's worth of data for the 500 stocks in the S&P 500
+* removing NULL values 
+* sorting data
 
 For our analysis, Yahoo! Finance libary proved to meet all our requirements to build our own dataset. 
 
-Please refer to Portfolio Data Builder notebook. 
+Please refer to [Data Builder](portfolio_data_builder.ipynb) notebook. 
 
 ### Library for Historical Stock Data via Pandas 
 
 Yahoo! Finance (pip install yahoo-finance) was used to retrieve historical stock data. 
 
-Please refer to portfolio_data_builder.ipynb notebook the data clean up details.
+Please refer to [Data Builder](portfolio_data_builder.ipynb) notebook the data clean up details.
 
 ### API Exploration 
 
 **Chosen API: API Backtesting section**
 
-Backtesting.py is a API / Python framework for inferring viability of trading strategies on historical (past) data. For this exercise we used a SMA crossover strategy with a 50 day window for the fast moving average(ma) and 100 for the slow ma.
+[Back Testing API](API_Backtesting.ipynb) is a API / Python framework for inferring viability of trading strategies on historical (past) data. For this exercise we used a SMA crossover strategy with a 50 day window for the fast moving average(ma) and 100 for the slow ma.
 
 Using $10,000 as an initial investment, whenever the fast-moving average crosses the slow ma in an uptrend we go long on the position and whenever it crosses in a downtrend, we close the position and remain out.
 
@@ -82,11 +83,17 @@ Backtesting API is used to analyze a specific stock to produce information and v
 
 **Not Chosen: Yahoo finance API**
 
-yfinance.py API showed great potential in its offering historical market data from Yahoo! Finance. Unfortunately, the data retrieved included 'NA's' and blank rows entries (missing values) on stock information resulting skweing our final results. This proposed addition questions if the API had issues or what data was missing. We completed additional research and noted the yfinance API is no longer maintained and concerned that the records were not up-to-date. 
+yfinance.py API showed great potential in its offering historical market data from Yahoo! Finance. Unfortunately, the data retrieved included 'NA's' and blank rows entries (missing values) on stock information resulting skweing our final results. This proposed addition questions if the API had issues or what data was missing. We completed additional research and noted the yfinance API is no longer maintained and concerned that the records were not up-to-date.
 
 **Not Chosen: Pyfolio Library** 
 
 Pyfolio is a Python library used for performance and risk analysis of financial portfolio. We ran into a number of technical issues during our data exploration 
+
+### Data Clean Up
+
+During the pull of the stock prices into the dataframe, each dataframe was checked for Na values and were dropped.  After each stocks profits were calculated, the profit distribution was checked for outliers and how or if the data was skewed.  In the below graph the profits are evenly distributed but the project's focus on the stocks with highest profit and the data skew is accepted.
+
+![sma_amzn](source_code/images/skew.jpg)
 
 ## Portfolio Summary
 
@@ -98,26 +105,26 @@ We looked at the moving average (ma) for a 50 day and 100 period. The ma calcula
 
 Below is the example of using the ma calculations for the Amazon stock (ticket: AMZN) with the results graphed. 
 
-![sma_amzn](images/sma.png)
+![sma_amzn](source_code/images/sma.jpg)
 
 #### Profitable Portfolio Stocks:
 
-![portfolio](images/profitable_portfolio.png)
+![portfolio](source_code/images/profit_port.jpg)
 
 #### Portfolio Returns 
 
 The results of the average daily returns and cumulative returns of the profitable portfolio against the S&P 500 (ticket: SPY). As noted in the results of the cumulative returns, it appears 90% of the stocks in the profitable portfolio outperform the S&P 500. The PNC Financial Services Group (ticker: PNC) appears to follow the S&P 500 closely compared to the other stocks within the portfolio. 
 
-![returns](images/returns.png)
+![returns](source_code/images/returns.jpg)
 
 
-![cummulative_returns](images/cummualtive_returns.png)
+![cummulative_returns](source_code/images/cummualtive_returns.jpg)
 
 ---
 
 ## Portfolio Performance 
 
-Please refer to Project_Visualizations notebook and Portfolio Analysis notebook for the sections below. 
+Please refer to [Portfolio Analysis](portfolio_analysis.ipynb) notebook for the sections below. 
 
 ### Portfolio Distribution 
 
@@ -125,11 +132,19 @@ Optimal portfolio weight calculation has helped to identify how to distribute th
 
 Calculation based on the stock's profit divided by the total sum of profits of the portfolio's stock. 
 
-![distribution](images/pie_profit.png)
+![distribution](source_code/images/pie_profit.jpg)
 
 ### Monte Carlo Simulation 
 
 Completed a Monte Carlo simulation to model the probability of different outcomes of the portfolio. Please refer to the portfolio analysis notebook to review.
+
+![sma_amzn](source_code/images/monty.jpg)
+
+### Rolling Volatility
+
+90% of the Profitable Portfolio stocks have a higher volatility than the S&P 500 (tickers: MKTX, TDY, NFLX, SPGI, IPGP, MSCI, NOW, BIO, AMZN)
+
+![volatility](source_code/images/volitility.jpg)
 
 ### Sharpe Ratio & Sortino Ratio
 
@@ -137,9 +152,9 @@ The sharpe ratio and sortino ratio were used to understand the portfolio's risk-
 
 The sharpe ratio provides insight on how well an investment is performing and was used to whereas the sortino ratio ratio only factors in the downside. 
 
-Portfolio's annualized Sharpe Ratio: -3.6318774824566202
+Portfolio's annualized Sharpe Ratio: -3.5811413649780466
 
-Portfolio's annualized Sortino Ratio: -6.338238649986802
+Portfolio's annualized Sortino Ratio: -6.202279181522641
 
 ---
 
