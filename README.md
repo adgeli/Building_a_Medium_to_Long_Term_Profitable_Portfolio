@@ -84,6 +84,10 @@ Backtesting API is used to analyze a specific stock to produce information and v
 
 yfinance.py API showed great potential in its offering historical market data from Yahoo! Finance. Unfortunately, the data retrieved included 'NA's' and blank rows entries (missing values) on stock information resulting skweing our final results. This proposed addition questions if the API had issues or what data was missing. We completed additional research and noted the yfinance API is no longer maintained and concerned that the records were not up-to-date. 
 
+**Not Chosen: Pyfolio Library** 
+
+Pyfolio is a Python library used for performance and risk analysis of financial portfolio. We ran into a number of technical issues during our data exploration 
+
 ## Portfolio Summary
 
 ### Portfolio Development
