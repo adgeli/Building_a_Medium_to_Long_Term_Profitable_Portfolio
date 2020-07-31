@@ -182,7 +182,11 @@ Monte Carlo - the simulations show that the portfolio has the ability of achievi
 
 ## Other Considerations not explored
 
-With an annual review of the stock portfolio, will we see a change in the stocks and weight distribution? 
+With an annual review of the stock portfolio, will we see a change in the stocks and weight distribution?
 
-What are the outlier stocks?
+Additional risk assessment; measure returns, benchmark mismatch, etc.
+
+Further investiagion into impact of outliers.
+
+Investigate efficiency frontier.
 
