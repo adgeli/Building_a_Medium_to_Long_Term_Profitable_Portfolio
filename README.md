@@ -105,7 +105,7 @@ We looked at the moving average (ma) for a 50 day and 100 period. The ma calcula
 
 Below is the example of using the ma calculations for the Amazon stock (ticket: AMZN) with the results graphed. 
 
-![sma_amzn](source_code/images/sma.jpg)
+![sma_amzn](source_code/images/SMA.jpg)
 
 #### Profitable Portfolio Stocks:
 
