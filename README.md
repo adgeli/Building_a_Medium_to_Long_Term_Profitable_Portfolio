@@ -8,7 +8,7 @@
 
 ## Profitable Portfolio: Creating a Medium to Long Term Investment Strategy
 
-This portfolio development project encompasses an assortment of Python skills obtained througout the Fintech Bootcamp course. Utilizing Python data visulizations tools such as; PyViz, Plotly Express, and HvPlot, partnered with Pandas data cleaning procedures, a financial analysis is conducted to identify opportunities of a well-defined investment algorithm.  Power presentation can be found at the following [location](https://docs.google.com/presentation/d/1I8NO5Jp4SKLjNEdgbSsNcSCxoTM7Caq1vf-FVTJNYY8/edit?usp=sharing)
+This portfolio development project encompasses an assortment of Python skills obtained throughout the Fintech Bootcamp course. Utilizing Python data visualizations tools such as; PyViz, Plotly Express, and HvPlot, partnered with Pandas data cleaning procedures, a financial analysis is conducted to identify opportunities of a well-defined investment algorithm.  Power presentation can be found at the following [location](https://docs.google.com/presentation/d/1I8NO5Jp4SKLjNEdgbSsNcSCxoTM7Caq1vf-FVTJNYY8/edit?usp=sharing)
 
 ### Project Objective
 
